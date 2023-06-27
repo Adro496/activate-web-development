@@ -1,0 +1,23 @@
+.font-reset {
+	font-family: Georgia
+}
+
+body {
+	color: green;
+	font-weight: bold
+}
+main {
+	border: 2px solid black
+}
+
+p {
+	border: inherit
+}
+
+a {
+	color: inherit
+}
+
+strong {
+	color: initial
+}

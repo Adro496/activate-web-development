@@ -1,0 +1,43 @@
+* {
+	font-family: Georgia
+}
+
+ul#lista > li { font-weight: bold }
+
+img.new + span { font-weight: bold }
+
+li#pc:first-child { font-size: 2em }
+
+li.letra:first-child { font-size: 2em }
+
+.letra:first-letter { font-size: 2em }
+
+.línea:first-line{ font-size: 2em }
+
+a[title] { font-weight: bold }
+
+a[title=Buscador] {color: green}
+
+div#atributos a[href="#"] {color: green}
+
+a[title="Página del curso"] {color: red}
+
+a[id|=top] {background-color: yellow}
+
+a[title~=dos] {color: green}
+
+:lang(en) {font-style: italic}
+
+a.old:before {
+	content:"(DEP) ";
+	color: #000
+}
+
+a.new:after {
+	content:" (Nuevo)";
+	color: #000
+}
+
+section#pt p:nth-of-type(2) {font-weight: bold}
+
+section#t h3 ~ p {font-weight: bold}

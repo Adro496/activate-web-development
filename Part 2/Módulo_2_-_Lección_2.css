@@ -1,0 +1,35 @@
+.font-reset {
+	font-family: Georgia
+}
+
+.no-style {
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+
+.no-style a {
+	text-decoration: none
+}
+
+.horizontal li {
+	float: left;
+	margin: 0;
+	padding: 0
+}
+
+.horizontal a {
+	margin: 0;
+	color: #FFF;
+	background-color: #98BF21;
+	text-align: center;
+	padding: 4px
+}
+
+.horizontal a:hover, .horizontal a:active {
+	background-color: #7A991A
+}
+
+.horizontal li {
+	font-weight: bold
+}

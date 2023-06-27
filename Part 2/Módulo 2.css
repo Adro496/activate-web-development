@@ -1,0 +1,53 @@
+.font-reset {
+	font-family: Georgia
+}
+
+p#align {
+	text-align: center
+}
+
+p#indent {
+	text-indent: 1cm
+}
+
+p#decoration {
+	text-decoration: line-through
+}
+
+p#transform {
+	text-transform: uppercase;
+	white-space: pre
+}
+
+p#line-height {
+	line-height: 3em
+}
+
+#mdc {
+	border: 2px solid black;
+	padding: 5em 5em;
+	margin: 5em
+}
+
+.box-sizing-content, .box-sizing-border {
+	width: 38em;
+	border: 1em solid black
+}
+
+.box-sizing-content .split {
+	box-sizing: content-box;
+	width: 50%;
+	border: 1em silver ridge;
+	float: left
+}
+
+.box-sizing-border .split {
+	box-sizing: border-box;
+	width: 50%;
+	border: 1em silver ridge;
+	float: left
+}
+
+.clear-both {
+	clear: both
+}

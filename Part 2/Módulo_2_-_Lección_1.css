@@ -1,0 +1,8 @@
+.font-reset {
+	font-family: Georgia
+}
+
+ol {
+	list-style-type: upper-alpha;
+	list-style-position: inside
+}

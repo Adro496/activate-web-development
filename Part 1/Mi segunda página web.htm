@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Mi segunda página web</title>
+		<link href="Hoja_de_estilo.css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1>Mi segunda página web</h1>
+			<p>Esta es la introducción de una página web. Si fuera un artículo, esto sería una presentación de <strong>la cuestión a tratar</strong>.</p>
+		<h2>Título uno</h2>
+			<p>Este sería el primer párrafo del primer título. Acá, la cosa ya se pone seria: empieza el <em>divague filosófico</em>.</p>
+		<h2>Título dos</h2>
+			<p>Bla, bla, bla...</p>
+		<h2>...</h2>
+		<h2 id="redTitle">Título eónico</h2>
+			<p>Cosas que ya nadie entiende.</p>
+		<h2>Conclusión</h2>
+			<p>La clave de la vida.</p>
+		<h2>Edición Notepad++</h2>
+			<p>Comentario muy serio sobre las características de <strong>Notepad++</strong>.</p>
+		<h2>Edición enlaces</h2>
+			<p><a href="https://www.deepl.com/translator">Click para conocer al papá de todos los traductores.</a></p>
+			<p><a href="Scott_H_Young.html#text-5">Sobre Scott.</a></p>
+			<p><a href="https://www.deautos.com/">No visitado.</a></p>
+		<h2>Edición formularios</h2>
+			<form class="form bold">
+				<fieldset><legend>Texto</legend>
+					Campo 1: <input name="campo1" type="text"><br/>
+					Campo 2: <input name="campo2" type="password" maxlength="8"><br/>
+					Campo 3: <input type="text" value="Estoy deshabilitado" name="campo3" disabled="disabled">
+				</fieldset>
+				<fieldset><legend>Casillas de verificación</legend>
+					<input name="cdv" type="checkbox" value="cdv1" id="opcion1cdv">
+					<label for="opcion1cdv">Opción 1</label>
+					<input name="cdv" type="checkbox" value="cdv2" id="opcion2cdv">
+					<label for="opcion2cdv">Opción 2</label>
+				</fieldset>
+				<fieldset><legend>Radio</legend>
+					<label for="opcion1">Opción 1</label>
+					<input value="r1" type="radio" name="radio" id="opcion1" checked="checked"><br/>
+					<label for="opcion2">Opción 2</label>
+					<input value="r2" type="radio" name="radio" id="opcion2">
+				</fieldset>
+				<fieldset><legend>Desplegable</legend>
+					<select>
+					<option name="desplegable" value="Opción 1">Opción 1</option>
+					<option name="desplegable" value="Opción 2">Opción 2</option>
+					</select>
+				</fieldset>
+				<fieldset><legend>Múltiple</legend>
+					<select multiple="multiple">
+					<option name="multiple" value="Opción 1">Opción 1</option>
+					<option name="multiple" value="Opción 2">Opción 2</option>
+					</select>
+				</fieldset>
+				<input type="reset">
+				<input type="submit">
+			</form>
+		<h2>Módulo 5</h2>
+			<h3>4. HTML: tablas</h3>
+				<table border="1" cellspacing="0" style="text-align:center" class="table">
+					<caption>Ingresos</caption>
+					<thead>
+						<tr><td colspan="2">2012</td></tr>
+					</thead>
+					<tbody>
+						<tr><td colspan="2">Enero</td></tr>
+						<tr>
+							<td>100€</td>
+							<td>50€</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td>Febrero</td>
+							<td>75€</td>
+						</tr>
+					</tfoot>
+				</table>
+				<table border="1" cellspacing="0" style="text-align:center">
+					<caption>Ingresos</caption>
+					<tr><td colspan="3">2012</td></tr>
+					<tr>
+						<td rowspan="2">Enero</td>
+						<td>1</td>
+						<td>100€</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>50€</td>
+					</tr>
+					<tr>
+						<td colspan="2">Febrero</td>
+						<td>75€</td>
+					</tr>
+				</table>
+			<h3>5. HTML: imágenes</h3>
+				<img src="Inteligencia_01.jpg" alt="Supernova de inteligencia" usemap="#inteligencia" />
+					<map name="inteligencia">
+						<area shape="circle" coords="510,307,70" href="https://www.youtube.com/watch?v=YskFLFQA94Y" alt="Epicentro" />
+						<area shape="rect" coords="862,31,944,114" href="https://www.youtube.com/watch?v=hy2cxmHuEAs" alt="Espacio profundo" />
+						<area shape="poly" coords="656,119,647,135,666,134" href="https://www.youtube.com/watch?v=hDcWqidxvz4" alt="Indescritible :|" />
+					</map><br/>
+				<img src="Ying_yang,_hombre-fuego,_mujer-agua.jpg" alt="Ying yang hombre-mujer" width="400" height="400" /><br/>
+				<img src="Inteligencia_01.jpg" alt="Supernova de inteligencia" width="400" height="400" />
+			<h3>12. HTML: Ejemplo de formulario</h3>
+			<h4>Nuevas características de HTML5 en formularios</h4>
+			<p>Este es un ejemplo sobre las nuevas características de HTML5 en formularios.</p>
+			<form>
+				<p>
+					<label for="nombre">Nombre (obligatorio)</label>
+					<input type="text" name="nombre" id="nombre" placeholder="John Smith" autocomplete autofocus required />
+				</p>
+				<p>
+					<label for="pswd">Contraseña (obligatoria)</label>
+					<input type="password" name="pswd" id="pswd" placeholder="abc1234" pattern="[a-z]{3}[0-9]{4}" required /> (la contraseña debe contener 3 letras y 4 números en ese orden)
+				</p>
+				<p>
+					<label for="phone">Teléfono</label>
+					<input type="tel" name="phone" id="phone" placeholder="11 1234 5678" />
+				</p>
+				<p>
+					<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="ejemplo@dominio.com" />
+				</p>
+				<p>
+					<label for="website">Tu página web</label>
+					<input type="url" name="website" id="website" placeholder="http://www.tuweb.com" />
+				</p>
+				<p>
+					<label for="numberexample">Nº de temas</label>
+					<input type="number" name="numberexample" id="numberexample" placeholder="2" min="2" max="14" step="2" /> (entre 2 y 14, solo pares)
+				</p>
+				<p>
+					<label for="deliverydate">Fecha de envío</label>
+					<input type="date" name="deliverydate" id="deliverydate" min="2012-07-16" /> (mínimo, 16 de julio de 2012)
+				</p>
+				
+				<p>
+				<label for="colorexample">Color del ítem</label>
+				<input type="color" name="colorexample" id="colorexample" value="#1A33FF"
+				</p>
+				
+				<p>
+				<label for="search">Buscar</label>
+				<input type="search" name="search" id="search"
+				</p>
+				
+				<p>
+				<label for="points">Rango de valores</label>
+				<input type="range" name="points" id="points" min="1" max="10" /> (entre 1 y 10)
+				</p>
+				
+				<p>
+				<fieldset><legend>Selecciona una prioridad</legend>
+					<p><label><input type="radio" name="priority" value="baja" checked />Baja</label></p>
+					<p><label><input type="radio" name="priority" value="media" />Media</label></p>
+					<p><label><input type="radio" name="priority" value="alta" />Alta</label></p>
+				</fieldset>
+				</p>
+				
+				<p>
+				<fieldset><legend>Selecciona el tipo de envío</legend>
+					<p><label><input type="checkbox" name="deliverytype" value="urgente" checked />Urgente</label></p>
+					<p><label><input type="checkbox" name="deliverytype" value="acuse" />Con acuse de recibo</label></p>
+					<p><label><input type="checkbox" name="deliverytype" value="reembolso" />Contra reembolso</label></p>
+				</fieldset>
+				</p>
+				
+				<p>
+					<input type="submit" />
+				</p>
+			</form>
+	</body>
+</html>

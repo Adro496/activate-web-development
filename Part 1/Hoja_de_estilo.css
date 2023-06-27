@@ -1,0 +1,57 @@
+body {
+	background-color: #CCC;
+	color: #333
+}
+
+h1, h2, h3, h4 {
+	font-family: Georgia
+}
+
+h1 {
+	font-size: 3em
+}
+
+h2 {
+	font-size: 2em
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.form {
+	background-color: #00B;
+	color: #FFF
+}
+
+.bold {
+	font-weight: bold
+}
+
+h2#redTitle {
+	color: #B00
+}
+
+.table td {
+	background-color: #FFF
+}
+
+:link {
+	color: #FFF
+}
+
+:visited {
+	text-decoration: none
+}
+
+:visited:hover {
+	color: #000
+}
+
+a:hover:active {
+	color: #B00
+}
+
+form:focus {
+	border: 2px solid #385D8A
+}
